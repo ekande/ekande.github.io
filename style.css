@@ -54,7 +54,7 @@ p{
 
 	position:relative;
 	margin:0 auto;
-	padding:0 3px;
+	padding:0 0px;
 	text-align:left;
 	width:768px;
 	box-shadow: -10px 0 25px rgba(0,0,0,0.5),
@@ -63,12 +63,12 @@ p{
 }
 	header{
 	position:relative;
-	left: -3px;
+	left: 0px;
 	display: inline-block;
 	background:linear-gradient(rgba(0,0,0,1)40%,rgba(255,0,0,0));
 	height:225px;
-	width: 774px;
-	border-bottom: 10px solid black;
+	width: 768px;
+	border-bottom: 10px solid rgba(0,0,0,1);
 	
 	
 			
@@ -77,11 +77,28 @@ p{
 
 .sidebar {
 	position:absolute; 
-	top:225px;
+	top:235px;
 	right:0px;
-	width: 200px;
+	width: 250px;
+	margin:0px;
+	padding:0px;
+	background-color: rgba(0,0,0,0.6);
+	height:1000px;
+	
 }
 
+.sidebar h3{
+	margin-left:0px;
+	font-family: monospace;
+	}
+
+.sidebar ul li{
+	margin:0px
+}
+.sidebar, .designer-name{
+	display:block;
+	margin:0
+}
 .summary :nth-child(1){
 	display:none;
 }
@@ -124,6 +141,14 @@ p{
 
 .benefits{
 	position:relative;
+	left:0;
+	width:400px;
+	margin:0;
+	font-size: 11px;
+}
+
+.requirements{
+		position:relative;
 	left:0;
 	width:400px;
 	margin:0;
