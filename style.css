@@ -8,12 +8,11 @@ height: 100%;
 body{
 	background:radial-gradient(#8a8a8b, #292929);
 	
-	background: 
-	-webkit-radial-gradient(#8a8a8b, #292929);
+	background:-webkit-radial-gradient(#8a8a8b, #292929);
 	
 	background:-o-radial-gradient(#8a8a8b, #292929);
 	
-	background:-moz-radial-gradient(#8a8a8b, #292929);
+	background:-moz-radial-gradient(#8a8a8b, #292929) ;
 	
 	margin:0 auto;
 	padding:0;
@@ -79,13 +78,17 @@ p{
 }
 
 header{
-	position:relative;
+	
+	background:url(img/dickbutt_header.png);
+	
+	
 	left: 0px;
 	display: inline-block;
-	background:rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.6);
 	height:225px;
 	width: 768px;
 	color:gray;	
+	z-index: 1;
 }
 
 .sidebar {
@@ -114,6 +117,8 @@ header{
 	display:block;
 	margin:0;
 }
+
+
 
 .summary{
 	display:inline-block;
@@ -179,5 +184,12 @@ footer a{
 	left: 200px;
 	bottom:-5px;
 }
+
+	
+
+	
+	
+	
+
 
 	
