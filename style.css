@@ -7,6 +7,14 @@ height: 100%;
 
 body{
 	background:radial-gradient(#8a8a8b, #292929);
+	
+	background: 
+	-webkit-radial-gradient(#8a8a8b, #292929);
+	
+	background:-o-radial-gradient(#8a8a8b, #292929);
+	
+	background:-moz-radial-gradient(#8a8a8b, #292929);
+	
 	margin:0 auto;
 	padding:0;
 	width: 100%;
